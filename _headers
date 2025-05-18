@@ -4,4 +4,5 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
-  Content-Security-Policy: default-src 'self'
+  Content-Security-Policy: default-src 'self' https:;
+  Permissions-Policy: interest-cohort=()
